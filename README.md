@@ -1,7 +1,7 @@
 # HotellApplikasjon
-Simple Hotel Application - 2nd part of Android Exam
-
 PG4600-1 17V Mobil utvikling
+
+Simple Hotel Application - 2nd part of Android Exam
 
 # Task:
 
