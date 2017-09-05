@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register_background"
+    tools:context="com.example.skolen.hotelapplikasjon.Customer.RegisterActivity">
+    
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/User_Register"
+            android:text="@string/user_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            />
+
+
+
+        <TextView
+            android:id="@+id/email"
+            android:textSize="20sp"
+            android:text="@string/email"
+            android:layout_marginTop="5sp"
+            android:layout_marginStart="5sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/editTextEmail"
+            style="@style/Widget.AppCompat.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:inputType="textEmailAddress"
+            />
+
+        <TextView
+            android:textSize="20sp"
+            android:id="@+id/password"
+            android:text="@string/password"
+            android:layout_marginTop="5sp"
+            android:layout_marginStart="5sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+
+        <EditText
+            android:id="@+id/editTextPassword"
+            style="@style/Widget.AppCompat.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:inputType="textPassword"
+            />
+
+        <TextView
+            android:textSize="20sp"
+            android:layout_marginTop="5sp"
+            android:layout_marginStart="5sp"
+            android:id="@+id/confirmPassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/confirmPassword"
+            />
+
+        <EditText
+            android:id="@+id/editTextConfirmPassword"
+            style="@style/Widget.AppCompat.EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5sp"
+            android:inputType="textPassword"
+            />
+
+        <Button
+            android:layout_margin="15dp"
+            android:id="@+id/sign_up_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/sign_up_button"
+            android:textAllCaps="false"
+            />
+
+        <TextView
+            android:id="@+id/sign_in_here"
+            android:text="@string/sign_in_here"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    </LinearLayout>
+
+</RelativeLayout>

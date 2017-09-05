@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_background"
+    tools:context="com.example.skolen.hotelapplikasjon.Hotel.WelcomeActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:src="@drawable/ic_action_clown"
+            android:layout_gravity="center"
+            android:layout_margin="15dp"
+            />
+
+        <TextView
+            android:id="@+id/hotel_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/hotel_name"
+            android:layout_marginBottom="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Title"
+            android:textColor="@android:color/background_light"
+            />
+
+        <TextView
+            android:id="@+id/hotel_slogan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/hotel_slogan"
+            android:textAppearance="@style/TextAppearance.AppCompat.Light.SearchResult.Subtitle"
+            android:textColor="#e9e9e9"
+            android:typeface="sans"
+            />
+
+    </LinearLayout>
+
+    <GridView
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        android:columnWidth="100dp"
+        android:stretchMode="columnWidth"
+        android:layout_below="@+id/linearLayout"
+        >
+    </GridView>
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/google_sign_in"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gridView"
+        >
+
+    </com.google.android.gms.common.SignInButton>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:layout_below="@+id/google_sign_in"
+        android:layout_centerHorizontal="true">
+
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:text="@string/login_button"
+            android:textAllCaps="false"
+            android:layout_marginEnd="2dp"/>
+
+
+        <Button
+            android:id="@+id/sign_up_button"
+            android:layout_width="170dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:text="@string/sign_up_button"
+            android:textAllCaps="false"
+            android:layout_marginStart="2dp"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

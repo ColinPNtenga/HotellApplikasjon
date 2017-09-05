@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#041fb4</color>
+    <color name="colorPrimaryDark">#aa1b14</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="homeIcon">#225D7F</color>
+    <color name="restaurantIcon">#067F3A</color>
+    <color name="infomationIcon">#F4A742</color>
+</resources>

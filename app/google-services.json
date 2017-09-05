@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "946072056789",
+    "firebase_url": "https://hotelapplikasjon.firebaseio.com",
+    "project_id": "hotelapplikasjon",
+    "storage_bucket": "hotelapplikasjon.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:946072056789:android:6223765f83eca4df",
+        "android_client_info": {
+          "package_name": "com.example.skolen.hotelapplikasjon"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "946072056789-hmm1l0hvtm6lpmcmcrgltk07deh70es8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.skolen.hotelapplikasjon",
+            "certificate_hash": "2f299c451d227fb3efe86b9de48b78271af8b3e5"
+          }
+        },
+        {
+          "client_id": "946072056789-370dt4238aorks7p4p0s9smipc4eq5os.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCimkiOAvVDtCOmqZ3CN_T7RonUbqM8kTw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "946072056789-370dt4238aorks7p4p0s9smipc4eq5os.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,181 @@
+<resources>
+    <string name="app_name">HotelApplikasjon</string>
+
+    <!--- TEXT VIEWS -->
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="mobile">Mobile</string>
+    <string name="password">Password</string>
+    <string name="confirmPassword">Confirm Password</string>
+    <string name="room_number">Room Number</string>
+    <string name="checkinDate">From</string>
+    <string name="checkoutDate">To</string>
+    <string name="sign_in_here">Already Registered? Sign in here</string>
+    <string name="sign_up_here">Not Registered? Sign up here</string>
+    <string name="user_register">User Registration</string>
+    <string name="user_login">User Login</string>
+    <string name="booking">Booking</string>
+    <string name="hotel_slogan">We put a smile back on your face</string>
+    <string name="hotel_name">Asylmottaket</string>
+    <string name="Customer">Customer</string>
+
+    <!--- BUTTONS -->
+    <string name="login_button">Login</string>
+    <string name="check_in_button">Check In</string>
+    <string name="sign_up_button">Sign Up</string>
+    <string name="button_location">View Location</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="home_fragment">Home Fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="restaurant_fragment">Restaurant Fragment</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="tourism_fragment">Tourism Fragment</string>
+    <string name="title_activity_location">Map</string>
+
+
+    <!--- TOURISM CONTENT ARRAY -->
+    <string-array name="attraction_names">
+        <item>Oslofjord</item>
+        <item>Viking Ship Museum</item>
+        <item>Oslo Cathedral</item>
+        <item>Akershus Fortress</item>
+        <item>Norwegian Museum of Cultural History</item>
+        <item>Vigeland Museum</item>
+        <item>Kon-Tiki Museum</item>
+        <item>Frogner Park</item>
+        <item>Nobel Peace Center</item>
+        <item>Norwegian Museum of Science and Technology</item>
+    </string-array>
+    
+    <string-array name="attraction_description">
+        <item>Fishing, lighthouses</item>
+        <item>Lobster, sailing</item>
+        <item>Museum with 3 wooden, 9th-century Viking ships</item>
+        <item>17th-century church hosting state events</item>
+        <item>Waterside fortress &amp; former prison</item>
+        <item>Life in Norway from 1500 to the present</item>
+        <item>Sculpture museum dedicated to Vigeland</item>
+        <item>Adventurer museum with original boats</item>
+        <item>Public park with a museum &amp; sculpture</item>
+        <item>Nobel Peace Prize museum &amp; events hub</item>
+        <item>National science &amp; technology museum</item>
+    </string-array>
+
+    <string-array name="attraction_address">
+        <item></item>
+        <item>Huk Aveny 35</item>
+        <item>Karl Johans gate 11</item>
+        <item>0150 Oslo</item>
+        <item>Museumsveien 10</item>
+        <item>Nobels gate 32</item>
+        <item>Bygdøynesveien 36</item>
+        <item>Kirkeveien</item>
+        <item>Brynjulf Bulls plass 1</item>
+        <item>Kjelsåsveien 143</item>
+    </string-array>
+
+    <string-array name="attraction_images">
+        <item>@drawable/tourist_0</item>
+        <item>@drawable/tourist_1</item>
+        <item>@drawable/tourist_2</item>
+        <item>@drawable/tourist_3</item>
+        <item>@drawable/tourist_4</item>
+        <item>@drawable/tourist_5</item>
+        <item>@drawable/tourist_6</item>
+        <item>@drawable/tourist_7</item>
+        <item>@drawable/tourist_8</item>
+        <item>@drawable/tourist_9</item>
+    </string-array>
+
+    <!--- FOOD CONTENT ARRAY -->
+    <string-array name="food_names">
+        <item>Beef Bourguignon</item>
+        <item>Goma Ramen</item>
+        <item>Cheese Souffle</item>
+        <item>Filet Mignon</item>
+        <item>Braised Pork Loin</item>
+        <item>Beef Wellington</item>
+        <item>Chicken Cordon Bleu</item>
+        <item>Chicken Cacciatore</item>
+    </string-array>
+
+    <string-array name="food_cost">
+        <item>85$</item>
+        <item>65$</item>
+        <item>44$</item>
+        <item>38$</item>
+        <item>53$</item>
+        <item>70$</item>
+        <item>74$</item>
+        <item>48$"</item>
+    </string-array>
+
+    <integer-array name="food_images">
+        <item>@drawable/food_0</item>
+        <item>@drawable/food_1</item>
+        <item>@drawable/food_2</item>
+        <item>@drawable/food_3</item>
+        <item>@drawable/food_4</item>
+        <item>@drawable/food_5</item>
+        <item>@drawable/food_6</item>
+        <item>@drawable/food_7</item>
+    </integer-array>
+
+    <!--- ROOM CONTENT ARRAY -->
+    <string-array name="room_types">
+        <item>Single Room</item>
+        <item>Double Room</item>
+        <item>Triple Room</item>
+        <item>Quad Room</item>
+        <item>Queen Size Room</item>
+        <item>King Size Room</item>
+    </string-array>
+
+    <integer-array name="room_numbers">
+        <item>104</item>
+        <item>205</item>
+        <item>302</item>
+        <item>408</item>
+        <item>510</item>
+        <item>630</item>
+
+    </integer-array>
+
+    <string-array name="room_prices">
+        <item>150$</item>
+        <item>200$</item>
+        <item>300$</item>
+        <item>350$</item>
+        <item>600$</item>
+        <item>650$</item>
+    </string-array>
+
+    <string-array name="room_descriptions">
+        <item>A room assigned to one person.</item>
+        <item>A room assigned to two people.</item>
+        <item>A room assigned to three people.</item>
+        <item>A room assigned to four people.</item>
+        <item>A room with a queen sized bed.</item>
+        <item>A room with a king sized bed.</item>
+    </string-array>
+
+    <string-array name="room_images">
+        <item>@drawable/room_0</item>
+        <item>@drawable/room_1</item>
+        <item>@drawable/room_2</item>
+        <item>@drawable/room_3</item>
+        <item>@drawable/room_4</item>
+        <item>@drawable/room_5</item>
+    </string-array>
+
+
+
+
+
+
+
+
+</resources>
